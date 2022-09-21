@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Poppins">
+    <link rel="stylesheet" href="style.css">
+    <title>Exploratorium</title>
+</head>
+<body>
+        <h3 id="head">KNOW YOUR WEIGHT ACROSS THE UNIVERSE</h3>
+        <div id="inputMass">
+            <div id="enter">
+                Enter your Weight here &emsp;
+                <img src="arrow.png" alt="arrow" id="arrow">
+                <input id="input" type="number" name="input" placeholder="50kg">
+            </div>
+            <div id="enter">
+                Select the Planet &emsp;
+                <img src="arrow.png" alt="arrow" id="arrow">
+                <select name="planet" id="planet" >
+                    <option value="mercury">Mercury</option>
+                    <option value="venus">Venus</option>
+                    <option value="earth">Earth</option>
+                    <option value="mars">Mars</option>
+                    <option value="jupiter">Jupiter</option>
+                    <option value="saturn">Saturn</option>
+                    <option value="uranus">Uranus</option>
+                    <option value="neptune">Neptune</option>
+                </select>
+            </div>
+            </br>
+            <button onclick="funClick()" id="btn">Calculate Weight</button>
+            <p id="p"></p>
+            <div id="picDiv"><div id="pic"></div></div>
+        </div>
+        <div id="planetDiv">
+            <div id="planets1">
+                <div id="mercury1"><img src="mercury.png" alt="mercury" id="mercury"></div>
+                <div id="venus1"><img src="venus.png" alt="venus" id="venus"></div>
+                <div id="earth1"><img src="earth.png" alt="earth" id="earth"></div>
+                <div id="mars1"><img src="mars.png" alt="mars" id="mars"></div>
+                <div id="jupiter1"><img src="jupiter.png" alt="jupiter" id="jupiter"></div>
+            </div>
+            <div id="planets2">
+                <div id="saturn1"><img src="saturn.png" alt="saturn" id="saturn"></div>
+                <div id="uranus1"><img src="uranus.png" alt="uranus" id="uranus"></div>
+                <div id="neptune1"><img src="neptune.png" alt="neptune" id="neptune"></div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
